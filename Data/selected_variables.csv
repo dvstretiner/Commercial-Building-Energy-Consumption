@@ -1,0 +1,71 @@
+﻿2018_variable,2012_variable,variable_type,variable_group,label
+PBA,PBA,C,building characteristic,Principal building activity
+SQFT,SQFT,N,building characteristic,Square footage
+WLCNS,WLCNS,C,building characteristic,Wall construction material
+RFCNS,RFCNS,C,building characteristic,Roof construction material
+BLDSHP,BLDSHP,C,building characteristic,Building shape
+GLSSPC,GLSSPC,C,building characteristic,Percent exterior glass
+NFLOOR,NFLOOR,N,building characteristic,Number of floors
+YRCONC,YRCONC,C,building characteristic,Year of construction category
+FLCEILHT,FLCEILHT,N,building characteristic,Floor to ceiling height
+NELVTR,NELVTR,N,building characteristic,Number of elevators
+NESLTR,NESLTR,N,building characteristic,Number of escalators
+RFTILT,RFTILT,C,building characteristic,Roof tilt
+ATTIC,ATTIC,C,building characteristic,Attic presence
+RFCOOL,RFCOOL,C,building characteristic,Derived variable: Cool roof
+WINTYP,WINTYP,C,building characteristic,Window glass type
+CENDIV,CENDIV,C,building characteristic,Census Division
+PLANT,PLANT,C,building characteristic,Central physical plant
+RWSEAT,RWSEAT,N,capacity,Religious worship seating capacity
+PBSEAT,PBSEAT,N,capacity,Assembly seating capacity
+EDSEAT,EDSEAT,N,capacity,Number of classroom seats
+FDSEAT,FDSEAT,N,capacity,Food service seating capacity
+HCBED,HCBED,N,capacity,Licensed inpatient beds
+NRSBED,NRSBED,N,capacity,Licensed nursing beds
+LODGRM,LODGRM,N,capacity,Number of guest rooms
+NWKER,NWKER,N,capacity,Number of employees
+NOCC,NOCC,N,capacity,Number of businesses
+CDD65,CDD65,N,climate,Cooling degree days (base 65)
+PCTERMN,PCTERMN,N,equipment,Number of desktop computers
+LAPTPN,LAPTPN,N,equipment,Number of laptops
+LGOFFDEVN,,N,equipment,Number of large office devices
+SMOFFDEVN,,N,equipment,Number of small office devices
+TVVIDEON,TVVIDEON,N,equipment,Number of TV or video displays
+RGSTRN,RGSTRN,N,equipment,Number of point-of-sales or cash registers
+XRAYN,XRAYN,N,equipment,Number of X-ray machines
+ATMN,,N,equipment,Number of ATMs
+SERVERN,SERVERN,N,equipment,Number of servers or racks
+TABLETN,,N,equipment,Number of tablets
+ELCOOK,ELCOOK,C,"cooking, water heating, manufacturing",Electricity used for cooking
+ELMANU,ELMANU,C,"cooking, water heating, manufacturing",Electricity used for manufacturing
+ELWATR,ELWATR,C,"cooking, water heating, manufacturing",Electricity used for water heating
+MAINCL,MAINCL,C,hvac,Derived variable: Main air-conditioning equipment
+COOLP,COOLP,N,hvac,Percent cooled
+MAINHT,MAINHT,C,hvac,Derived variable: Main heating equipment
+MAINT,MAINT,C,hvac,Regular HVAC maintenance
+EMCS,EMCS,C,hvac,Building automation system (BAS)
+SLFCON,SLFCON,C,hvac,Individual space heaters used for heating
+FLUOR,FLUOR,C,lighting,Fluorescent lighting
+CFLR,CFLR,C,lighting,Compact fluorescent (CFL) bulbs
+BULB,BULB,C,lighting,Incandescent light bulbs
+HALO,HALO,C,lighting,Halogen bulbs
+HID,HID,C,lighting,High intensity discharge (HID) lighting
+LED,LED,C,lighting,LED lighting
+PKLT,PKLT,C,lighting,Lighted parking area
+RFGRSN,RFGRSN,N,refrigeration,Number of residential refrigerators
+RFGCOMPN,RFGCOMPN,N,refrigeration,Number of compact refrigerators
+RFGWIN,RFGWIN,N,refrigeration,Number of walk-in units
+RFGOPN,RFGOPN,N,refrigeration,Number of open refrigerated cases
+RFGCLN,RFGCLN,N,refrigeration,Number of closed refrigerated cases
+RFGVNN,RFGVNN,N,refrigeration,Number of vending machines
+RFGICN,RFGICN,N,refrigeration,Number of commercial ice makers
+RENHVC,RENHVC,C,renovations,HVAC upgrade since 2000?
+RENINS,RENINS,C,renovations,Insulation upgrade since 2000?
+RENELC,RENELC,C,renovations,Electric Upgrade sinsce 2000?
+ELCNS,ELCNS,N,response variable,Building/energy supplier variable: Annual electricity consumption (kWh)
+MONUSE,MONUSE,N,usage,Months in use
+OCCUPYP,OCCUPYP,N,usage,Percent occupancy
+WKHRS,WKHRS,N,usage,Total hours open per week
+VAV,ZHTVVAV,C,ventilation,Variable air volume (VAV) system
+DOAS,ZHTVOAS,C,ventilation,Dedicated outside air system (DOAS)
+DCV,ZHTVDEM,C,ventilation,Demand controlled ventilation (DCV)
